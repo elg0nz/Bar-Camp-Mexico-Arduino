@@ -1,0 +1,15 @@
+Good Morning Twitter!
+An arduino solution to Tell Twitter when you are awake.
+By Gonzalo Maldonado
+
+This works by measuring the light intensity in a room in order to determine if your up or not (as anyone who has played h2g2 knows, it's the first thing to do in the morning)
+
+Usage:
+	1. program your arduino using gmt.pde (follow the schematics included in that file)
+	2. run python goodMorning.py (it will ask for your username password and message)
+		2.1 Turn on your lights (or keep them on) and press enter
+		2.2 Turn off your lights and press enter
+		2.3 Go to bed and sleep
+	3. When you wake up and turn up your light your message will be twitted.
+
+Good night.
